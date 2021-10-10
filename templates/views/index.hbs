@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Weather</title>
+    <link rel="icon" href="/NodeJS/AndrewNodeJS/web-server/public/img/weather.png">
+    <link rel="stylesheet" href="./css/styles.css">
+
+</head>
+
+<body>
+
+    <div class="main-content">
+         {{>header}}
+         <p>Use this site to get your weather</p>
+    </div>
+
+    <form>
+        <input placeholder="Location">
+        <button>Search</button>
+    </form>
+
+    <p id="messageOne"></p>
+    <p id="messageTwo"></p>
+  
+     {{>footer}}
+         <script src="./js/app.js"></script>
+</body>
+
+</html>
